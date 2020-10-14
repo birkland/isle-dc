@@ -16,4 +16,5 @@ services:
     - drupal-sites-data:/data/drupal
     - mariadb-data:/data/mariadb-data
     - mariadb-files:/data/mariadb-files
+    - minio-data:/data/minio
     - solr-data:/data/solr
