@@ -97,3 +97,6 @@ syn-keys
 #===================
 # User provided certs for TLS.
 certs
+
+# Ignore node stuff
+*node_modules
