@@ -102,3 +102,6 @@ certs
 # Ignore node and test stuff
 *node_modules
 end-to-end/reports
+
+# Ignore settings.php, as it is now generated
+web/sites/*/settings.php

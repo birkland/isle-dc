@@ -1,0 +1,8 @@
+# Sets up confd for web/sites/default/settings.php
+[template]
+src = "settings.php.tmpl"
+dest = "/var/www/drupal/web/sites/default/settings.php"
+uid = 0
+gid = 0
+mode = "0644"
+keys = [ "/s3" ]
